@@ -1,0 +1,1 @@
+CREATE INDEX idx_order_user_index ON orders (user_id);
