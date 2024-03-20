@@ -6,24 +6,24 @@
       https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd"
         logicalFilePath="homework-2">
     
-<!--    <changeSet author="Dzmitry Yarashevich" id="homework-2-users">-->
-<!--        <sqlFile relativeToChangelogFile="true" path="./sql/01.create-users-table.sql" encoding="utf8"/>-->
-<!--    </changeSet>-->
-<!--    <changeSet author="Dzmitry Yarashevich" id="homework-2-role">-->
-<!--        <sqlFile relativeToChangelogFile="true" path="./sql/02.create-role-table.sql" encoding="utf8"/>-->
-<!--    </changeSet>-->
-<!--    <changeSet author="Dzmitry Yarashevich" id="homework-2-credentials">-->
-<!--        <sqlFile relativeToChangelogFile="true" path="./sql/03.create-credentials-table.sql" encoding="utf8"/>-->
-<!--    </changeSet>-->
-<!--    <changeSet author="Dzmitry Yarashevich" id="homework-2-product">-->
-<!--        <sqlFile relativeToChangelogFile="true" path="./sql/04.create-product-table.sql" encoding="utf8"/>-->
-<!--    </changeSet>-->
-<!--    <changeSet author="Dzmitry Yarashevich" id="homework-2-orders">-->
-<!--        <sqlFile relativeToChangelogFile="true" path="./sql/05.create-orders-table.sql" encoding="utf8"/>-->
-<!--    </changeSet>-->
-<!--    <changeSet author="Dzmitry Yarashevich" id="homework-2-order_product">-->
-<!--        <sqlFile relativeToChangelogFile="true" path="./sql/06.create-order_product-table.sql" encoding="utf8"/>-->
-<!--    </changeSet>-->
+   <changeSet author="Dzmitry Yarashevich" id="homework-2-users">-->
+       <sqlFile relativeToChangelogFile="true" path="./sql/01.create-users-table.sql" encoding="utf8"/>
+    </changeSet>
+   <changeSet author="Dzmitry Yarashevich" id="homework-2-role">
+       <sqlFile relativeToChangelogFile="true" path="./sql/02.create-role-table.sql" encoding="utf8"/>
+   </changeSet>
+   <changeSet author="Dzmitry Yarashevich" id="homework-2-credentials">
+       <sqlFile relativeToChangelogFile="true" path="./sql/03.create-credentials-table.sql" encoding="utf8"/>
+   </changeSet>
+   <changeSet author="Dzmitry Yarashevich" id="homework-2-product">
+       <sqlFile relativeToChangelogFile="true" path="./sql/04.create-product-table.sql" encoding="utf8"/>
+   </changeSet>
+   <changeSet author="Dzmitry Yarashevich" id="homework-2-orders">
+       <sqlFile relativeToChangelogFile="true" path="./sql/05.create-orders-table.sql" encoding="utf8"/>
+   </changeSet>
+   <changeSet author="Dzmitry Yarashevich" id="homework-2-order_product">
+       <sqlFile relativeToChangelogFile="true" path="./sql/06.create-order_product-table.sql" encoding="utf8"/>
+   </changeSet>
     <changeSet author="Dzmitry Yarashevich" id="homework-2-idx_order_user_index">
         <sqlFile relativeToChangelogFile="true" path="./sql/07.create-idx_order_user_index.sql" encoding="utf8"/>
     </changeSet>
